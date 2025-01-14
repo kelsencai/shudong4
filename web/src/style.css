@@ -1,0 +1,55 @@
+:root {
+  --white: #FFFFFF;
+  --light_scallion_green: #3CA6B3;
+  --deep_scallion_green: #5A8FA5;
+  --ink_black: #596077;
+  --gray_1: #f9f9fa;
+  --gray_2: #E7E7E7;
+  --gray_3: #a4a2a2;
+  --shadow_color: rgba(89, 96, 119, 0.35);
+  --red: #FF0B0B;
+
+  --bg: var(--white);
+  --theme_light_color: var(--light_scallion_green);
+  --theme_deep_color: var(--deep_scallion_green);
+  --message_content_wrap_bg: var(--gray_1);
+  --message_content_wrap_border: var(--gray_2);
+  --font_color_common: var(--ink_black);
+  --font_color_deep: #454545;
+
+  --font_family: Inter,'PingFang SC',HarmonyOS_Medium,'Helvetica Neue','Microsoft YaHei',sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  min-width: 1000px;
+}
+
+@media screen and (max-width: 1080px) {
+  body{
+    min-width: auto;
+  }
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
